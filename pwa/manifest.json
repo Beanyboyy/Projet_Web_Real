@@ -1,0 +1,54 @@
+{
+  "name": "StageFinder",
+  "short_name": "StageFinder",
+  "lang":"fr",
+  "start_url": " login.php",
+  "id":"login.php",
+  "display": "standalone",
+  "background_color": "#19C040",
+  "theme_color" : "#53CF70",
+  "orientation": "portrait-primary",
+  "icons": 
+  [
+      {
+      "src": "./out144.png",
+          "type": "image/png",
+          "sizes": "144x144"
+      },
+      {
+          "src":"./out512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+
+      },
+      {
+          "src":"./out192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+      },
+      {
+          "src":"./out144.png",
+          "type": "image/png",
+          "sizes": "144x144"
+      },
+      {
+          "src":"./out128.png",
+          "type": "image/png",
+          "sizes": "128x128" 
+      },
+      {
+          "src":"./out96.png",
+          "type": "image/png",
+          "sizes": "96x96"
+      },
+      {
+          "src":"./out152.png",
+          "type": "image/png",
+          "sizes": "152x152" 
+      }
+  ]
+}
+
+
+
+

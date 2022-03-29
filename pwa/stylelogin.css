@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 7%;
+	background-image: linear-gradient(to right top, #50da34, #25d059, #00c571, #00b882, #0cab8c);
+}
+
+.form-title {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+	justify-content: center;
+}
+
+
+
+.form-signin {
+  width: 40%;
+  max-width: 200%;
+  padding: 10%;
+  margin: auto;
+  font-size:18px;
+
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 2%;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+
+
+
+
+#footer {
+  background-color:#c4c4c4;
+  color:#4b4c4d;
+  bottom: 0;
+  position:absolute;
+  width:100%;
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} 
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+  font-size:18px;
+} 
+
+.copyright {
+  text-align:center;
+  color:rgb(131, 131, 131);
+  text-decoration: underline;   
+  margin-bottom:0;
+  font-size:10px;
+}
