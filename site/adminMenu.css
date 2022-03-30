@@ -1,0 +1,682 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, #3cf4c4, #43f0be, #4aedb8, #4fe9b2, #54e5ac, #4ee4a4, #48e39b, #44e292, #37e382, #2ce36f, #27e35a, #28e340);
+}
+
+header {
+  background: #c4c4c4;
+  width:  100%;
+} 
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .header-right {
+    float: none;
+    float: right;
+  }
+}
+
+/*Boutton disconnect*/
+.button {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  overflow: hidden;
+  position: relative;
+  color: #eeeeee;
+  font-weight: 600;
+  font-size: 10px;
+  background-color: #153f00;
+  padding: 8px 15px;
+  margin-right: 3px;
+  display: block;
+}
+
+.button span {
+  position: relative;
+  z-index: 1;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 400%;
+  width: 200%;
+  background: #52b71f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+  transform: translateX(-100%) translateY(-25%) rotate(45deg);
+}
+
+.button:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+/*Fin Boutton disconnect*/
+
+/* Login page */
+.form-title {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+    justify-content: center;
+}
+
+.form-signin {
+  width: 40%;
+  max-width: 200%;
+  padding: 10%;
+  margin: auto;
+  font-size:18px;
+
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 2%;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*Fin Login page*/
+
+/*Student page*/
+#corp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  height:90%;
+  padding-bottom:9%;
+}
+
+.img_acceuil_1{
+
+  flex-direction: column;
+  justify-content : center;
+  display:flex;
+  border: #50da34 ridge;
+  margin: auto;   
+}
+
+.img_acceuil_1 h3{
+  font-size: smaller;
+}
+*/
+
+
+/*Boutton page admin*/
+.representant{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .c{
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .c span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .c:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #777677;
+    transition: all .35s;
+  }
+  
+  .c:hover{
+    color: #fff;
+  }
+  
+  .c:hover:after{
+    width: 100%;
+  }
+  .student{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  
+  .b{
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .b span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .b:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #777677;
+    transition: all .35s;
+  }
+  
+  .b:hover{
+    color: #fff;
+  }
+  
+  .b:hover:after{
+    width: 100%;
+  }
+
+  .pilot{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  
+  .d{
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .d span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .d:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #777677;
+    transition: all .35s;
+  }
+  
+  .d:hover{
+    color: #fff;
+  }
+  
+  .d:hover:after{
+    width: 100%;
+  }
+  .company{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  
+  .e{
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .e span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .e:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #777677;
+    transition: all .35s;
+  }
+  
+  .e:hover{
+    color: #fff;
+  }
+  
+  .e:hover:after{
+    width: 100%;
+  }
+  .offer{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  
+  .f{
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .f span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .f:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #777677;
+    transition: all .35s;
+  }
+  
+  .f:hover{
+    color: #fff;
+  }
+  
+  .f:hover:after{
+    width: 100%;
+  }
+  .application{
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  
+  .g{
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .g span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .g:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #777677;
+    transition: all .35s;
+  }
+  
+  .g:hover{
+    color: #fff;
+  }
+  
+  .g:hover:after{
+    width: 100%;
+  }
+/*Fin boutton page admin*/
+
+
+.all{
+  display: flex;
+  flex-direction: column;
+}
+
+.content h2 {
+  margin: 0;
+  padding: 25px 0;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 2px solid #000000;
+  border-top: 2px solid #000000;
+  color: #000000;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.update form {
+  padding: 15px 0;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.update form label {
+  display: inline-flex;
+  width: 400px;
+  padding: 10px 0;
+  margin-right: 25px;
+}
+.update form input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  height: 38px;
+  border: 1px solid #cccccc;
+}
+.update form input[type="submit"] {
+  display: block;
+  background-color: #38b673;
+  border: 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  cursor: pointer;
+  width: 200px;
+  margin-top: 15px;
+}
+.update form input[type="submit"]:hover {
+  background-color: #32a367;
+}
+
+.delete-message {
+  margin: 0;
+  padding: 35px 0;
+  font-size: 22px;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+}
+
+.delete .yesno {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.delete .yesno a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #38b673;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    margin: 15px 10px 15px 0;
+}
+.delete .yesno a:hover {
+    background-color: #32a367;
+}
+
+.read .create-into {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #38b673;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    margin: 15px 5px;
+}
+.read .create-into:hover {
+    background-color: #32a367;
+}
+.read .pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+.read .pagination a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3996f2;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    margin: 15px 0 15px 5px;
+}
+.read .pagination a:hover {
+    background-color: #007ffd;
+}
+.read table {
+    width: 100%;
+    padding-top: 30px;
+    border-collapse: collapse;
+}
+.read table thead {
+    background-color: #ebeef1;
+    border-bottom: 1px solid #d3dae0;
+}
+.read table thead td {
+    padding: 10px;
+    font-weight: bold;
+    color: #767779;
+    font-size: 14px;
+}
+.read table tbody tr {
+    border-bottom: 1px solid #d3dae0;
+    background-color: #b8b8b8;
+
+}
+.read table tbody tr:nth-child(even) {
+    background-color: #fbfcfc;
+}
+.read table tbody tr:hover {
+    background-color: #d0e1d4;
+}
+.read table tbody tr:hover td {
+    color: #FFFFFF;
+}
+.read table tbody tr:hover td:nth-child(1) {
+    color: #FFFFFF;
+}
+.read table tbody tr td {
+    padding: 10px;
+}
+.read table tbody tr td:nth-child(1) {
+    color: #a5a7a9;
+}
+.read table tbody tr td.actions {
+    padding: 8px;
+    text-align: right;
+}
+.read table tbody tr td.actions .edit, .read table tbody tr td.actions .trash {
+    display: inline-flex;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 12px;
+}
+.read table tbody tr td.actions .trash {
+    background-color: #b73737;
+}
+.read table tbody tr td.actions .trash:hover {
+    background-color: #a33131;
+}
+.read table tbody tr td.actions .edit {
+    background-color: #37afb7;
+}
+.read table tbody tr td.actions .edit:hover {
+    background-color: #319ca3;
+}
+
+.entities {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-left: 100px;
+  width: 15%;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 15%;
+}
+
+/* Boutton back */
+.back{
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  margin-top: 5px;
+  margin-left: 5px;
+  text-align: center;
+
+}
+
+.back span{
+  position: relative;
+  z-index: 2;
+}
+
+.back:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #777677;
+  transition: all .35s;
+}
+
+.back:hover{
+  color: #fff;
+}
+
+.back:hover:after{
+  width: 100%;
+}
+/* fin Boutton back */
+
+
+#footer {
+    background-color:#c4c4c4;
+    color:#4b4c4d;
+    bottom: 0;
+    position:absolute;
+    width:100%;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } 
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+    font-size:18px;
+  } 
+  
+  .copyright {
+    text-align:center;
+    color:rgb(131, 131, 131);
+    text-decoration: underline;   
+    margin-bottom:0;
+    font-size:10px;
+  }
+
+
+/*   about section */
+.about {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
